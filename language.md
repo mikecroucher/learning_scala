@@ -22,3 +22,33 @@ Line termination
 ```
 val message = "foo"; println(message)
 ```
+
+Variables
+---------
+General syntax for variable declaration is
+```
+var VariableName : DataType = Initial Value
+```
+
+For example: 
+
+```
+var bar : String = "bar"; println(bar)
+```
+
+You don't have to give the DataType in many cases. Thanks to **Variable type Inference**, the compiler figures out that message is a String in the following
+
+```
+var message = "foo"; println(message)
+```
+
+Var and Val
+-----------
+
+Objects declared with `var` are 'variable' i.e. they are mutable
+
+Objects declared with `val` are 'constant' i.e. they are immutable
+
+`val x=10 // x is a constant`
+
+`x=x+1 // This will fail`
