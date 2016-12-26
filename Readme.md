@@ -51,3 +51,7 @@ showSuccess := false
 You can also run the compiled code the `scala` command
 
 * `scala -cp target/scala-2.12/classes/ HelloWorld`
+
+Notes
+-----
+* [language](language.md) - Basic language notes
