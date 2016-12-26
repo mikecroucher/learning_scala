@@ -13,7 +13,7 @@ scalac HelloWorld.scala
 Run with
 
 ```
-scala HelloWorld`
+scala HelloWorld
 ```
 
 Compile to the directory `myclasses`
@@ -28,8 +28,9 @@ Run from the directory `myclasses`
 scala -cp myclasses HelloWorld
 ```
 
-sbt (Scala Build tool)
+sbt (Scala Build Tool)
 ======================
+* http://www.scala-sbt.org/
 * Sources in the base directory or in `src/main/scala` or `src/main/java`
 * The `build.sbt` file goes in base directory and looks like
 
@@ -45,7 +46,7 @@ showSuccess := false
 
 * `sbt compile`
 * `sbt run`
-* `sbt --error run` - Gets rid of the verbose output `info` etc. Works in combination with `showSuccess := false` in `build.sbt`
+* `sbt --error run` - Gets rid of the verbose output `[info]` etc. Works in combination with `showSuccess := false` in `build.sbt`
 
 You can also run the compiled code the `scala` command
 
